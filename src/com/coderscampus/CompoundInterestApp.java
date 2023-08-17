@@ -11,8 +11,8 @@ public class CompoundInterestApp {
 		String interestRateIn = collectInput(scanner, "What is the interest rate?");
 
 		double newBalanceDbl = Integer.parseInt(initialInvestmentIn);
-		double interestRateDbl    = Double.parseDouble(interestRateIn);
-		
+		double interestRateDbl = Double.parseDouble(interestRateIn);
+
 		for (int i = 0; i < 6; i++) {
 			newBalanceDbl = outputAndCalculate(newBalanceDbl, interestRateDbl, i); // breakpoint
 		}
